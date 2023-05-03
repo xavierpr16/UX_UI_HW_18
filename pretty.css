@@ -1,0 +1,113 @@
+.inlineblock1 {display: inline-block; text-align: left;   position: absolute;
+  top: 78px;
+  right: 16px; color: #FCEDDB;}
+
+  .inlineblock2 {display: inline-block; text-align: left;   position: absolute;
+    top: 78px;
+    right: 98px; color: #FCEDDB;}
+
+    .inlineblock3 {display: inline-block; text-align: left;   position: absolute;
+      top: 78px;
+      right: 150px; color: #FCEDDB;}
+      
+      .inlineblock4 {display: inline-block; text-align: left;   position: absolute;
+        top: 78px;
+        right: 200px; color: #FCEDDB;}
+
+
+
+.logo { width: 15%; padding: 1%; text-align:start; }
+
+nav { width: 100%; padding: .5%; background-color: #EF4E34;   }
+
+#topnav {  justify-content: center;  }
+
+ul { width: 50%; margin-left: auto;}
+
+.heroImg { width: 100%; padding: .5%; background-color: #EF4E34;}
+
+p1 { color: #FCEDDB; }
+
+
+#content { width: 500px; margin: 0 auto; }
+
+.ul { display: inline-block; vertical-align: top; padding: center;}
+
+h1 {
+    font-size: 100px;
+    margin: 0px 0px;
+    color: whitesmoke;
+  }
+  
+
+  .skills { background-color: black; }
+
+  #skillsheading { color: #EF4E34; font-family: "Oswald";}
+
+.square1 {   display: inline-block; /* the default for span */
+  width: 300px;
+  height: 200px;
+  padding: 5px;  
+  background-color: #E84547;
+  color: white; 
+  margin-left: 15%;
+ }
+
+ .square2 {   display: inline-block; /* the default for span */
+  width: 300px;
+  height: 200px;
+  padding: 5px;  
+  background-color: #E84547;
+  color: white; 
+  margin-left: 2%;
+  margin-bottom: 3%;
+ }
+
+ .square3 {   display: inline-block; /* the default for span */
+  width: 300px;
+  height: 200px;
+  padding: 5px;  
+  background-color: #E84547;
+  color: white; 
+  margin-left: 2%;
+ }
+
+
+  .work { background-color: #EF4E34;  }
+  
+  #workheading { color: #FCEDDB; font-family: "Oswald";}
+
+  .square4 {   display: inline-block; /* the default for span */
+    width: 300px;
+    height: 200px;
+    padding: 5px;  
+    background-color: #FCEDDB;
+    margin-left: 15%;
+   }
+  
+   .square5 {   display: inline-block; /* the default for span */
+    width: 300px;
+    height: 200px;
+    padding: 5px;  
+    background-color: #FCEDDB; 
+    margin-left: 2%;
+    margin-bottom: 3%;
+   }
+  
+   .square6 {   display: inline-block; /* the default for span */
+    width: 300px;
+    height: 200px;
+    padding: 5px;  
+    background-color: #FCEDDB; 
+    margin-left: 2%;
+   }
+  
+   .inlineblock {display: inline-block; text-align: left;}
+
+  footer { background-color: #EF4E34; display: block; text-align: end;  }
+
+  @media only screen and (max-width: 600){ 
+    
+
+
+  }
