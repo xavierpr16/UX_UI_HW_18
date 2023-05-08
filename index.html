@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8" /> <link rel="stylesheet" href="pretty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <title>Xavier Camacho Portfolio</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+</script>
+</head>
+</head>
 <div>
 
 
 
 <nav>
-    <img class="logo" src="Images/logo.png">
+  
 <ul id="topnav">
+<li class="inlinelogo"><img class="logo" src="Images/logo.png"></li>    
 <li class="inlineblock1">About Me</li>
 <li class="inlineblock2">Skills</li>
 <li class="inlineblock3">Work</li>
@@ -19,19 +35,19 @@
 </nav>
 
 </div>
-</head>
+
 
 <body>
 <section class="heroImg">
     
-    <h1 id="welcome">Welcome To My Portfolio</h1>
+    <h1 id="welcome">WELCOME TO MY PORTFOLIO</h1>
     <p1> I am Xavier Camacho, UX/UI and Graphic designer. I love to make bold designs that would make someone's day and have an impact. 
         My skills include but are not limited to: Adobe Suite, Figma and UX research. I've been a Graphic designer for a sign studio for 
         2 years before deciding to explore the big world of UX Design. </p1>
         
-        <button>Download Resume</button>
+        <button type="button" class="btn btn-dark">Download Resume</button>
 
-<img src="Images/Hero Image.png">
+
 
 </section>
 
@@ -39,53 +55,68 @@
 
     <h1 id="skillsheading">Skills</h1>
 
-    <img src="Images/Skillspic.png">
+    <img src="Images/Skillspic.png" class="skillsImg">
 
-    <span class="square1"> 
+    <button>Click to fade in boxes</button><br><br>
+
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+
+
+
+
+
+<div class="skillBlocks">
+    <span class="square1" id="button"> 
     <h2>User Research</h2>
     For research I'm always looking to find the most important thing for the user, so I can provide the best information needed to our team. The tools I use for research is Miro and Invision.
 
     
     </span>
-    <span class="square2"> 
+    <span class="square2" id="div1"> 
         <h2>User Empathy</h2>
         When I collect my information its important to understand my user. Their constraints and the context of their situation as whole. I also use miro for empathy work.
     
         
         </span>
 
-    <span class="square3"> 
+    <span class="square3" id="div2"> 
             <h2>Qualitive Interviews</h2>
             When I interview my users, I tend to begin very broad and slowly get more focused on the target topic. Then to understand their motivations, thoughts and attitudes of our target users. 
         
             
             </span>
-    
+        </div>
 </section>
 
 <section class="work">
 
     <h1 id="workheading">Work</h1>
 
-    <span class="square4"> 
-        <h2>BLM Agency Case Study</h2>
-       
-        </span>
-        <span class="square5"> 
-            <h2>AFA Case Study</h2>
-            
-            </span>
-    
-        <span class="square6"> 
-                <h2>TFE App Case Study</h2>
-                
-                
-                </span>
+ 
 
-
-
-
-
+      <div class="card-deck">
+        <div class="card">
+          <img src="Images/Artboard 8_11 3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">BLM Agency Case Study</h2>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images/PSD_laptopandphone.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">AFA Case Study</h2>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images/behance-64284c1669b82.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">TFE App Case Study</h2>
+            </div>
+        </div>
+      </div>
 
 
 </section>
@@ -94,19 +125,23 @@
 <footer> 
     
     <ul>
+        <img class="footerimage" src="Images/logo.png">
+        <img class="footerimage" src="Images/Group 8.png">
         <li class="inlineblock">About Me</li>
         <li class="inlineblock">Skills</li>
         <li class="inlineblock">Work</li>
         <li class="inlineblock">Contact</li>
+      
     </ul>
+    <img id="footerline" src="Images/Vector 11.png">
     
-    
-    
-    </footer>
+</footer>
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 

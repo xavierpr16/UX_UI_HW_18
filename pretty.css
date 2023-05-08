@@ -1,48 +1,77 @@
+
+
+
+.inlinelogo {display: inline-block; text-align: left;   position: absolute;
+ 
+  right: 76px; left: 70px; color: #FCEDDB; }
+
 .inlineblock1 {display: inline-block; text-align: left;   position: absolute;
   top: 78px;
-  right: 16px; color: #FCEDDB;}
+    right: 50px; color: #FCEDDB; font-size: 25px;}
+ 
 
-  .inlineblock2 {display: inline-block; text-align: left;   position: absolute;
+.inlineblock2 {display: inline-block; text-align: left;   position: absolute;
     top: 78px;
-    right: 98px; color: #FCEDDB;}
+    right: 200px; color: #FCEDDB; font-size: 25px;}
 
-    .inlineblock3 {display: inline-block; text-align: left;   position: absolute;
+.inlineblock3 {display: inline-block; text-align: left;   position: absolute;
       top: 78px;
-      right: 150px; color: #FCEDDB;}
+      right: 300px; color: #FCEDDB; font-size: 25px;}
       
-      .inlineblock4 {display: inline-block; text-align: left;   position: absolute;
+.inlineblock4 {display: inline-block; text-align: left;   position: absolute;
         top: 78px;
-        right: 200px; color: #FCEDDB;}
+        right: 400px; color: #FCEDDB; font-size: 25px;}
 
 
 
-.logo { width: 15%; padding: 1%; text-align:start; }
+.logo { width: 15%; padding: 1%;}
 
 nav { width: 100%; padding: .5%; background-color: #EF4E34;   }
 
-#topnav {  justify-content: center;  }
+#topnav {  width: 50px;  }
 
-ul { width: 50%; margin-left: auto;}
 
-.heroImg { width: 100%; padding: .5%; background-color: #EF4E34;}
+
+.welcome { font-family: 'Oswald', sans-serif; }
+
+.heroImg { width: 100%; padding: 18%; background-color: #EF4E34;
+  background: url(Images/Hero\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 p1 { color: #FCEDDB; }
+
+img {     max-width: 100%;
+  height: auto;}
 
 
 #content { width: 500px; margin: 0 auto; }
 
-.ul { display: inline-block; vertical-align: top; padding: center;}
+
 
 h1 {
-    font-size: 100px;
-    margin: 0px 0px;
+    font-size: 170px;
     color: whitesmoke;
   }
   
+  .skills { background-color: black;     max-width: 100%;
+    height: auto;display: block;}
 
-  .skills { background-color: black; }
+ 
 
-  #skillsheading { color: #EF4E34; font-family: "Oswald";}
+  #skillsheading { color: #EF4E34; font-family: "Oswald"; text-align: right; }
+ 
+
+
+.skillBlocks {
+
+align-self: center;
+
+}
+
+
 
 .square1 {   display: inline-block; /* the default for span */
   width: 300px;
@@ -51,6 +80,8 @@ h1 {
   background-color: #E84547;
   color: white; 
   margin-left: 15%;
+ 
+   
  }
 
  .square2 {   display: inline-block; /* the default for span */
@@ -77,37 +108,30 @@ h1 {
   
   #workheading { color: #FCEDDB; font-family: "Oswald";}
 
-  .square4 {   display: inline-block; /* the default for span */
-    width: 300px;
-    height: 200px;
-    padding: 5px;  
-    background-color: #FCEDDB;
-    margin-left: 15%;
-   }
-  
-   .square5 {   display: inline-block; /* the default for span */
-    width: 300px;
-    height: 200px;
-    padding: 5px;  
-    background-color: #FCEDDB; 
-    margin-left: 2%;
-    margin-bottom: 3%;
-   }
-  
-   .square6 {   display: inline-block; /* the default for span */
-    width: 300px;
-    height: 200px;
-    padding: 5px;  
-    background-color: #FCEDDB; 
-    margin-left: 2%;
-   }
-  
-   .inlineblock {display: inline-block; text-align: left;}
-
-  footer { background-color: #EF4E34; display: block; text-align: end;  }
-
-  @media only screen and (max-width: 600){ 
-    
-
-
+  .card-deck { width: 1800px; align-items: center; padding: .5%;
   }
+
+
+  
+   .inlineblock {display: inline-block; left: 200px; color: #FCEDDB; ;}
+   
+
+  footer { background-color: #EF4E34; display: block; text-align: end; letter-spacing: 2.5px; padding: 10px;  }
+.footerimage {
+
+display: block ; width: 8%; 
+
+}
+
+#footerline {
+
+  size: cover; width: 10000px;
+  
+  }
+  
+
+@media only screen and (max-width: 600){ 
+    }
+
+
+    
