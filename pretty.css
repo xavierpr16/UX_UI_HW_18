@@ -30,7 +30,7 @@ nav { width: 100%; padding: .5%; background-color: #EF4E34;   }
 
 #topnav {  width: 50px;  }
 
-
+#demo { color: #FCEDDB;}
 
 .welcome { font-family: 'Oswald', sans-serif; }
 
@@ -40,7 +40,32 @@ nav { width: 100%; padding: .5%; background-color: #EF4E34;   }
   background-size: cover;
 
 }
-
+button {
+  background-color: #014552; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+button {
+  background-color: #014552; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
 p1 { color: #FCEDDB; }
 
 img {     max-width: 100%;

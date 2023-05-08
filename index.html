@@ -7,18 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <title>Xavier Camacho Portfolio</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").fadeIn();
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn(3000);
-  });
-});
-</script>
+
+
+
 </head>
-</head>
+
 <div>
 
 
@@ -36,18 +29,19 @@ $(document).ready(function(){
 
 </div>
 
-
 <body>
 <section class="heroImg">
     
     <h1 id="welcome">WELCOME TO MY PORTFOLIO</h1>
-    <p1> I am Xavier Camacho, UX/UI and Graphic designer. I love to make bold designs that would make someone's day and have an impact. 
+    <span style="display:none;"><p1 class="portfoliodes"> I am Xavier Camacho, UX/UI and Graphic designer. I love to make bold designs that would make someone's day and have an impact. 
         My skills include but are not limited to: Adobe Suite, Figma and UX research. I've been a Graphic designer for a sign studio for 
-        2 years before deciding to explore the big world of UX Design. </p1>
+        2 years before deciding to explore the big world of UX Design. </p1></span>
         
-        <button type="button" class="btn btn-dark">Download Resume</button>
+        <p id="demo" style="display:none">I am Xavier Camacho, UX/UI and Graphic designer. I love to make bold designs that would make someone's day and have an impact. 
+        My skills include but are not limited to: Adobe Suite, Figma and UX research. I've been a Graphic designer for a sign studio for 
+        2 years before deciding to explore the big world of UX Design. <button type="button" onclick="document.getElementById('demo').style.display='none'">x</button></p>
 
-
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">About Myself</button>
 
 </section>
 
@@ -57,14 +51,7 @@ $(document).ready(function(){
 
     <img src="Images/Skillspic.png" class="skillsImg">
 
-    <button>Click to fade in boxes</button><br><br>
-
-    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
-    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
-    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
-
-
-
+      
 
 
 
@@ -147,5 +134,7 @@ $(document).ready(function(){
 
     
 </body>
-
+<script src="js/index.js">
+  
+</script>
 </html>
