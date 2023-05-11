@@ -26,7 +26,7 @@
 
 .logo { width: 15%; padding: 1%;}
 
-nav { width: 100%; padding: .5%; background-color: #EF4E34;   }
+nav { width: 100%; padding: .5%; background-color: #EF4E34;    }
 
 #topnav {  width: 50px;  }
 
@@ -66,7 +66,7 @@ button {
   cursor: pointer;
   border-radius: 12px;
 }
-p1 { color: #FCEDDB; }
+p { font-size:1vw; }
 
 img {     max-width: 100%;
   height: auto;}
@@ -77,8 +77,9 @@ img {     max-width: 100%;
 
 
 h1 {
-    font-size: 170px;
+    font-size: 2.5em; /* 40px/16=2.5em */
     color: whitesmoke;
+    font-size:10vw;
   }
   
   .skills { background-color: black;     max-width: 100%;
@@ -86,7 +87,7 @@ h1 {
 
  
 
-  #skillsheading { color: #EF4E34; font-family: "Oswald"; text-align: right; }
+  #skillsheading { color: #EF4E34; font-family: "Oswald"; text-align: right; font-size:8vw;  }
  
 
 
@@ -105,7 +106,7 @@ align-self: center;
   background-color: #E84547;
   color: white; 
   margin-left: 15%;
- 
+  scale: 1;
    
  }
 
@@ -117,6 +118,7 @@ align-self: center;
   color: white; 
   margin-left: 2%;
   margin-bottom: 3%;
+  scale: 1;
  }
 
  .square3 {   display: inline-block; /* the default for span */
@@ -126,21 +128,25 @@ align-self: center;
   background-color: #E84547;
   color: white; 
   margin-left: 2%;
+  scale: 1;
  }
 
 
   .work { background-color: #EF4E34;  }
   
-  #workheading { color: #FCEDDB; font-family: "Oswald";}
+  #workheading { color: #FCEDDB; font-family: "Oswald"; font-size:8vw;}
 
-  .card-deck { width: 1800px; align-items: center; padding: .5%;
+  .card-deck { width: 1800px; align-items: center; padding: .5%; font-size:8vw;
   }
 
 
   
    .inlineblock {display: inline-block; left: 200px; color: #FCEDDB; ;}
    
+   .card-title { 
 
+
+   }
   footer { background-color: #EF4E34; display: block; text-align: end; letter-spacing: 2.5px; padding: 10px;  }
 .footerimage {
 
